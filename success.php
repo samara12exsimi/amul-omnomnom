@@ -1,42 +1,15 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
-<head>
-	<img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1519010018265827&ev=Lead&noscript=1"
-/>
-    <title>
-        Terima kasih! Pesanan Anda telah diterima!
-    </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=320" />
-    <meta name="MobileOptimized" content="width=320" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic" rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel='stylesheet' type='text/css'>
-    <link media="all" rel="stylesheet" type="text/css" href="./css/order-style.css" />
-
-</head>
-
-<body>
-<div id="wrapper">
-    <div class="container">
-        <span class="decoration">
-        </span>
-        <div class="order-block">
-            <div class="text-holder">
-                <h2><span> Terima kasih! </span>  Pesanan Anda telah diterima!</h2>
-                <p>Operator kami akan akan menghubungi Anda untuk mengonfirmasi pesanannya. Jika penjawab otomatis Anda aktif, silakan dinonaktifkan terlebih dahulu agar operator kami dapat menghubungi Anda.
-                    <br />  Pengiriman dilayani oleh jasa kurir. Bayar - saat barang sampai!</p>
-            </div>
-
-
-            </form>
-        </div>
-
-    </div>
-</div>
-
-</div>
-<?php
+<!DOCTYPE html>
+        <html>
+         <head>
+           <title>Страница благодарности</title>
+           <meta charset="utf-8">
+         </head>
+         <body style="background: aliceblue;"> 
+          <h2 style="width: 100%;
+            text-align: center;
+            margin-top: 50px;">Благодарим за Ваш заказ. Наш оператор позвонит Вам в ближайшее время</h2>
+            <?php
 // Metrika
 if ( $_GET['mtrk'] && $mtrk = (int) $_GET['mtrk'] ) {
 setcookie( 'mtrk', $mtrk, $now + 300, '/' );
@@ -62,7 +35,5 @@ elseif (defined( 'FB' )) : ?><script>!function(f,b,e,v,n,t,s) {if(f.fbq)return;n
 if ( $vk ) : ?><script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=<?=$vk;?>&event=lead';</script><?
 elseif (defined( 'VK' )) : ?><script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=<?=VK;?>&event=lead';</script><? endif;
 ?>
-
-</body>
-
-</html>
+         </body> 
+        </html>
