@@ -1,0 +1,614 @@
+﻿.div-general {
+	border-radius: 9px;
+	margin: auto;
+	padding: 3px;
+	box-shadow: 2px 3px 9px 0px #000000;
+	width: 955px;
+	height: auto;
+	left: 13%;
+	top: 10px;
+	background-color: #FFFFFF;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.text-slogan {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 4mm;
+	font-style: italic;
+	color: #D98200;
+	text-align: center;
+	display: block;
+}
+.text-encuentras{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	text-align: center;
+	display: block;
+}
+.text-choice {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16pt;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #000000;
+	display: block;
+	padding-left: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+.text-5-tours {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 14pt;
+	padding-left: 18px;
+	color: #FFFFFF;
+	background-color: #28A2A2;
+	display: block;
+	font-weight: bold;
+}
+.celda-a1 {
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFFF99;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #269898;
+}
+.celda-a2 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #E4CBB1;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #279C9C;
+}
+.celda-a3 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #F8F8F8;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #279C9C;
+}
+.celda-a4 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFDFBF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-width: 9px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-a5 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #CEE7FF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #279F9F;
+}
+.img-icon-social {
+	border-width: 0px;
+	vertical-align: middle;
+}
+.text-mexico-states {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12pt;
+	color: #000000;
+}
+.text-to-enter {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11pt;
+	color: #BB0000;
+	text-align: center;
+	display: block;
+}
+.text-estados {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.text-book {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: italic;
+}
+.celda-b1 {
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFCC00;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #249393;
+}
+.celda-b2 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #CCFFCC;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-b3 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #EEEEEE;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-b4 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFCC99;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-width: 9px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-b5 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #CEE7FF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-b6 {
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FF99FF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.celda-b7 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFFFCC;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.celda-b8 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #F4FFFF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.celda-b9 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFE8EF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-width: 9px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.celda-b10 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #E6FFE6;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.text-ciudades {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 13pt;
+	color: #000000;
+	text-align: center;
+	display: block;
+}
+.celda-c1 {
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFCC00;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-c2 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #CCFFCC;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-c3 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #EEEEEE;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-c4 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFCC99;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-width: 9px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-c5 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #CEE7FF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-c6 {
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FF99FF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.celda-c7 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFFFCC;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.celda-c8 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #F4FFFF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.celda-c9 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFE8EF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-width: 9px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.celda-c10 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #E6FFE6;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.celda-d1 {
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFCC00;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-d2 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #CCFFCC;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-d3 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	border-radius: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #EEEEEE;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 9px;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-d4 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFCC99;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-right-width: 9px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #28A2A2;
+}
+.celda-d5 {
+	box-shadow: 1px 1px 3px 1px #C0C0C0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFFFFF;
+	margin-right: 9px;
+	display: table-cell;
+	width: 20%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #FFFFFF;
+}
+.text-normal {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11pt;
+	color: #000000;
+	text-align: center;
+	display: block;
+}
+.text-go-ahead {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 14pt;
+	color: #B38600;
+	font-style: italic;
+}
+.text-check-tours {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12pt;
+	font-style: italic;
+	text-align: center;
+}
+.text-titulos {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	text-align: center;
+	display: block;
+	font-weight: bold;
+}
